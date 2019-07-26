@@ -26,7 +26,26 @@ peers.accept((err) => {
 })
 ```
 
-```
+```json
+{
+  magic: Number,
+  
+  defaultPort: Number,
+  
+  defaultWebPort: Number,
+  
+  webSeeds: [
+    String,
+  ],
+  
+  dnsSeeds: [
+    String,
+  ],
+  
+  staticPeers: [
+    String,
+  ]
+}
 ```
 
 ```
